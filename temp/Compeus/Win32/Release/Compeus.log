@@ -1,0 +1,23 @@
+﻿  Command.cpp
+  Compeus.cpp
+  Document.cpp
+  InfiniteThread.cpp
+  Launcher.cpp
+  Listener.cpp
+D:\Dev\Console Apps\Compeus\source\Compeus\Listener.cpp(33,1): warning C4005: 'ES_CONTINUOUS': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(17083,1): message : see previous definition of 'ES_CONTINUOUS'
+D:\Dev\Console Apps\Compeus\source\Compeus\Listener.cpp(34,1): warning C4005: 'ES_DISPLAY_REQUIRED': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(17080,1): message : see previous definition of 'ES_DISPLAY_REQUIRED'
+D:\Dev\Console Apps\Compeus\source\Compeus\Listener.cpp(35,1): warning C4005: 'ES_SYSTEM_REQUIRED': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(17079,1): message : see previous definition of 'ES_SYSTEM_REQUIRED'
+  Logger.cpp
+  System.cpp
+  Timestamp.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1797 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Compeus.vcxproj -> D:\Dev\Console Apps\Compeus\output\Compeus\Win32\Release\Compeus.exe
+  D:\Dev\Console Apps\Compeus\source\Compeus\resources\Compeus.txt
+  D:\Dev\Console Apps\Compeus\source\Compeus\resources\Operations.txt
+  2 File(s) copied
