@@ -73,7 +73,7 @@ void Listener::input(bool &running)
     std::mutex mutex;
     std::unique_lock<std::mutex> unique_lock(mutex);
     std::thread inputThread(get_input, data, std::ref(running));
-	while(running)
+    while(running)
     {
         while (condition_variable.wait_for(unique_lock, std::chrono::seconds(5)) == std::cv_status::timeout)
         {
