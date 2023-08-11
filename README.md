@@ -17,8 +17,7 @@ the permissions, but what if your organization
 has taken those permissions away? 
 That's where this program can help.
 
-Nota Bene: I use this when I go for a coffee to prevent the system going into
-sleep or lock mode :)
+Nota Bene: I use this when I get myself a coffee to prevent the system going into sleep mode.
 
 ## Screenshots
 
