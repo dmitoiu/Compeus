@@ -21,6 +21,7 @@
 
 std::string Command::HELP         = "That's an invalid command, please use the following commands: 1, 2 and X";
 std::string Command::GENERAL      = "The System has been refreshed";
+std::string Command::SNAPSHOT     = "The System has taken a snapshot";
 std::string Command::TERMINATE    = "The Program has been terminated";
 std::string Command::INSTRUCTION  = "Waiting Instructions... ";
 std::string Command::TIMEOUT      = "Timeout 5 seconds...";

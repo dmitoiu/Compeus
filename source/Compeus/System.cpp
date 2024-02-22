@@ -26,9 +26,11 @@ void System::refresh()
     runningPointer = &running;
     std::thread listenThread(Listener::listen, std::ref(running));
     std::thread instructionsThread(Listener::input, std::ref(running));
+    std::thread snapShotThread(System::snapshot, std::ref(running));
     std::thread cleanThread(System::clean, std::ref(running));
 	listenThread.join();
     instructionsThread.join();
+    snapShotThread.join();
     cleanThread.join();
 }
 
@@ -80,6 +82,12 @@ std::string System::command()
     std::cin >> data;
     return data;
 }
+
+void System::snapshot(bool& running)
+{
+    Snapshot::run(running);
+}
+
 
 void System::clean(bool &running)
 {

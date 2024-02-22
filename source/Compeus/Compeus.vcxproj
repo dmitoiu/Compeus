@@ -167,6 +167,7 @@
     <ClCompile Include="Launcher.cpp" />
     <ClCompile Include="Listener.cpp" />
     <ClCompile Include="logger\Logger.cpp" />
+    <ClCompile Include="Snapshot.cpp" />
     <ClCompile Include="System.cpp" />
     <ClCompile Include="util\Timestamp.cpp" />
   </ItemGroup>
@@ -177,6 +178,7 @@
     <ClInclude Include="Launcher.h" />
     <ClInclude Include="Listener.h" />
     <ClInclude Include="logger\Logger.h" />
+    <ClInclude Include="Snapshot.h" />
     <ClInclude Include="System.h" />
     <ClInclude Include="util\Timestamp.h" />
   </ItemGroup>

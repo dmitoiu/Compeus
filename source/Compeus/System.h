@@ -24,6 +24,7 @@
 #include <fstream>
 #include <string>
 #include "Listener.h"
+#include "Snapshot.h"
 #include "Document.h"
 #include <Windows.h>
 #include "logger/Logger.h"
@@ -38,5 +39,6 @@ public:
 	static void run();
 	static void system(std::string command);
 	static void clean(bool &running);
+	static void snapshot(bool& running);
 	static std::string command();
 };

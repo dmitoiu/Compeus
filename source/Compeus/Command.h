@@ -30,6 +30,7 @@ public:
 	static std::string INSTRUCTION;
 	static std::string TIMEOUT;
 	static std::string REFRESH;
+	static std::string SNAPSHOT;
 	static std::string LOCK;
 	static std::string EXIT;
 };
