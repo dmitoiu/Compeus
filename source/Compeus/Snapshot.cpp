@@ -7,7 +7,7 @@ Snapshot::Snapshot(){}
 void Snapshot::run(bool& running)
 {
 	// milliseconds
-	short refresh = 25;
+	short refresh = 17;
 	std::mutex mutex;
 	std::unique_lock<std::mutex> unique_lock(mutex);
 	while(running)
@@ -22,7 +22,6 @@ void Snapshot::snapshot()
 {
 	try
 	{
-		short refresh = 1 * 500;
 		INPUT commands[2];
 		commands[0].type = INPUT_KEYBOARD;
 		commands[0].ki.wScan = MapVirtualKey(VK_CONTROL, 0);
